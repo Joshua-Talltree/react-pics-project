@@ -5,6 +5,7 @@ import React from 'react';
 class SearchBar extends React.Component {
     state = {term: ''};
 
+    // arrow function fixes "this"
     onFormSubmit = event => {
         event.preventDefault();
 
